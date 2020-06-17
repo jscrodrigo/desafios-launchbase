@@ -1,6 +1,7 @@
 # About
-In these two examples I show You how to calculate the IMC of a person and how to discover if one is able
+In the first two examples I show You how to calculate the IMC of a person and how to discover if one is able
 to retire or not, given its sex, age and contribution time!
+After is presented how to declare and log to the console objects and arrays.
 
 # ⚕️ IMC
 Basically the IMC calculates if a person is overweight or not, by doing:
