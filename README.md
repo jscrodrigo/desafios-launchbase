@@ -4,7 +4,7 @@ This respository is dedicated to the challenges of the Rocketseat LaunchBase cou
 to retire or not, given its sex, age and contribution time!
 2) In the second one is presented how to declare and log to the console **_objects and arrays_**.
 3) In the third one I present a way to use the classic **_for loop_**
-4) This examples simulates the fundamentals of **_credit_** and **_debit_** banking transactions 💸 
+4) This example simulates the fundamentals of **_credit_** and **_debit_** banking transactions 💸 
 ## ⚕️ IMC
 Basically the IMC calculates if a person is overweight or not, by doing:
 `weight/(height*height)`
