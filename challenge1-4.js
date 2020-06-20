@@ -51,7 +51,7 @@ function getTransactionCount(){
   return sum 
 };
 
-
+/*Testing the functions*/
 createTransaction({type: "credit", value: 50});
 createTransaction({type: "credit", value: 120});
 createTransaction({type: "debit", value: 80});
