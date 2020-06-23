@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  border: 0;
+  padding:0;
+}
+body {
+  background: #353434;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+
+header {
+  text-align: center;
+  padding: 30px;
+  border-bottom: 5px solid #7113bd;
+  font-size: 20px;
+  line-height: 30px;
+  background: rgba(43, 40, 44, 0.7);
+}
+
+.links__header a{
+  text-align: center;
+  color:  white;
+  padding: 30px;
+  text-decoration: none;
+}
+
+.links__header a:hover{
+  text-decoration: underline;
+  color: #7113bd;
+  transition: color 700ms;
+}
+
+/*Página sobre*/
+.content{
+  color: white;
+  max-width: 900px;
+  text-align: center;
+  margin: 30px auto;
+}
+.main__title h1{
+  font-size: 30px;
+  line-height: 40px;
+  letter-spacing: 1px;
+  padding: 10px;
+}
+.company__logo img{
+  border: solid 3px;
+  border-radius: 50%;
+  height: 300px;
+  margin-bottom:30px;
+}
+.description__init p{
+  max-width: 100%;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 1px;
+  margin: 5px auto;
+}
+.techs p{
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 1px;
+  margin: 10px auto;
+}
+.techs ul{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  list-style:none;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 1px;
+}
+.description__final p{
+  font-size: 18px;
+  letter-spacing: 1px;
+  padding: 10px;
+}
+#social__links a{
+  font-size: 18px;
+  line-height: 28px;
+  padding: 20px;
+  color: white;
+  text-decoration: none;
+}
+#social__links a:hover{
+  font-size: 30px;
+  color: #7113bd;
+  transition: color 500ms;
+}
