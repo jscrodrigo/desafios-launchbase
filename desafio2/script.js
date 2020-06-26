@@ -10,7 +10,6 @@ const close = () =>{
   modal.classList.remove('maximize');
 }
 
-
 for(let card of cards){
   let cardId = card.getAttribute('id');
   card.querySelector('.card-title').addEventListener('click', function(){
