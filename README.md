@@ -9,7 +9,7 @@ to retire or not, given its sex, age and contribution time!
 Basically the IMC calculates if a person is overweight or not, by doing:
 `weight/(height*height)`
 
-## 👵🏾 👴🏿 Retirement Calculation
+### 👵🏾 👴🏿 Retirement Calculation
 Here in Brazil, until a few years ago, some factors that allowed a person to ask for retirement were:
 - If Male:
   * Contibution time should be `>= 35 years`
