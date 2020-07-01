@@ -4,13 +4,11 @@ const nunjucks = require('nunjucks')
 const myServer = express();
 
 myServer.use(express.static('public'))
-
 myServer.set('view engine', 'njk')
 
 nunjucks.configure('views', {
   express:myServer
 })
-
 
 myServer.get('/content', function(req, res) {
   return res.render('content')
