@@ -1,0 +1,52 @@
+{% extends 'layout.njk' %}
+
+{% block head%}
+  <title>Sobre</title>
+{% endblock %}
+  
+{% block link%}
+  <a href="/content">Cursos</a>
+{% endblock%}
+
+{% block content %}
+
+  <div id="about">
+    <section class="content">
+      <div class="main__title">
+        <h1>RocketSeat</h1>
+      </div>
+
+      <div class="company__logo">
+        <img src="https://pbs.twimg.com/profile_images/1271517147349626881/Mf1UjRa0_400x400.jpg" alt="picture">
+      </div>
+
+      <div class="description__init">
+        <p> Somos a RocketSeat e fomos criados com a missão de levar o melhor
+          das tecnologias mais atuais do mercado para você, te ajudando a alcançar o próximo
+          nível na sua carreira. </p>
+      </div>
+
+      <div class="techs">
+        <p> Entregaremos a você todo o arsenal para se tornar um desenvolvedor Full-Stack
+          de alto nível, utilizando tecnologias como:
+        </p>
+        
+        <ul>
+          <li id="node">Node.js</li>
+          <li id="react">React</li>
+          <li id="react__native">React Native</li>
+        </ul>
+      </div>
+
+      <div class="description__final">
+        <p>Se interessou? Acompanhe-nos em nossas redes sociais para ficar atualizado!</p>
+        <div id="social__links">
+          <a href="https://www.instagram.com/rocketseat_oficial/?hl=pt-br" target="__blanked">Instagram</a>
+          <a href="https://www.facebook.com/rocketseat/" target="__blanked">Facebook</a>
+          <a href="https://github.com/rocketseat" target="__blanked">GitHub</a>
+        </div>
+      </div>
+    </section>
+  </div>
+
+{% endblock%}
