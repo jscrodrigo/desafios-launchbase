@@ -93,18 +93,19 @@ header {
 /*CARDS*/
 .cards {
   margin: 0 auto;
-  padding: 45px;
+  padding: 30px;
   max-width: 900px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 35px;
+  gap: 40px;
+  align-items: center;
 }
 
 .card {
   background-color: rgba(43, 40, 44);
-  width: 100%;
   text-align: center;
   border-radius:20px;
+  display: grid;
 }
 #starter{
   border: solid #6a38f3;
@@ -115,14 +116,16 @@ header {
 #gostack {
   border: solid #0cdf8e;
 }
+
+.card-image img{
+  padding: 30px;
+}
 .card-info {
   background-color: rgba(0, 0, 0, 0.4);
   border-radius: 0 0 20px 20px;
   padding: 32px 0;
 }
-.card-image img{
-  padding: 30px;
-}
+
 
 .card-title {
   font-size: 24px;
