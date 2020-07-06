@@ -1,5 +1,6 @@
-const express = require('express')
-const nunjucks = require('nunjucks')
+const express = require('express');
+const nunjucks = require('nunjucks');
+const data = require('./data');
 
 const myServer = express();
 
@@ -8,24 +9,24 @@ myServer.set('view engine', 'njk')
 
 nunjucks.configure('views', {
   express:myServer
-})
+});
 
 myServer.get('/content', function(req, res) {
-  return res.render('content')
+  return res.render('content', {cards: data})
 });
 
 myServer.get('/', function(req, res){
-  return res.render('content')
-})
+  return res.render('content', {cards: data})
+});
 
 myServer.get('/about', function(req, res) {
   return res.render('about')
 })
 
 myServer.use(function(req, res) {
-  res.status(404).render("not-found");
+  res.status(404).render('not-found');
 });
 
 myServer.listen(5000, function() {
   console.log('The server is running!')
-})
+});
