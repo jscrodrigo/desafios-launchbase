@@ -149,21 +149,24 @@ header {
   filter: brightness(90%);
 }
 
-.starter:hover{
+.starter:hover,
+.starter a:hover{
   cursor: pointer;
   color: #6a38f3;
   transition: color 700ms;
   font-size: 34px;
 }
 
-.launchbase:hover{
+.launchbase:hover,
+.launchbase a:hover{ 
   cursor: pointer;
   color: #f1a009;
   transition: color 700ms;
   font-size: 34px;
 }
 
-.gostack:hover{
+.gostack:hover, 
+.gostack a:hover{
   cursor: pointer;
   color: #0cdf8e;
   transition: color 700ms;
@@ -244,4 +247,24 @@ iframe {
   padding: 40px;
   font-size: 30px;
   line-height: 40px;
+}
+
+/*Course page*/
+.course {
+  margin: 0 auto;
+  padding: 30px;
+  max-width: 350px;
+  position: relative;
+  align-items: center;
+  cursor: pointer;
+}
+
+.course .card {
+  position: absolute;
+  width: 75%;
+}
+
+.course a {
+  text-decoration: none;  
+  color: white;
 }
