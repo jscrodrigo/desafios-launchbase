@@ -1,0 +1,32 @@
+{% extends 'layout.njk' %}
+
+{% block head %}
+  <title>{{course.title}}</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+{% endblock%}
+
+{% block link %}
+  <a href="/about">Sobre</a>
+  <a href="/content">Cursos</a>
+{% endblock %}
+
+{% block content %}
+
+  <section class="course">
+    <div class="card" id="{{course.id}}">
+      <div class="card-image">
+        <img src="{{course.courseImage}}" alt="{{course.title}}">
+      </div>
+      <div class="card-info">
+        <div class="card-title">
+          <p class="{{course.id}}"> <a href="https://rocketseat.com.br/{{course.id}}">Ir para {{course.title}}</a></p>
+        </div>
+        <div class="card-detail">
+          <p class="modules">{{course.modules}}</p>
+          <p class="price">{{course.price}}</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="./script.js"></script>
+{% endblock %}
