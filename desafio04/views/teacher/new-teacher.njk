@@ -1,0 +1,68 @@
+{% extends 'layout.njk' %}
+
+{% block head %}
+  <title>Teacher - Register</title>
+{% endblock head %}
+
+{% block content %}
+  <form class="card_wrapper" method="POST" action="/teachers">
+    <section class="card_image" style="background: url(https://source.unsplash.com/collection/8360382/500x500) no-repeat center center / cover"></section>
+    <section class="card_detail">
+      <h3>New Teacher</h3>
+
+      <div class="items">
+        <div>Image URL</div>
+        <div>
+          <input type="url" name="image" placeholder="http://">
+        </div>
+      </div>
+
+      <div class="items">
+        <div>Name</div>
+        <div>
+          <input type="text" name="name" placeholder="enter your name here">
+        </div>
+      </div>
+
+      <div class="items">
+        <div>Birth Date</div>
+        <div>
+          <input type="date" name="birth__date">
+        </div>
+      </div>
+
+      <div class="items">
+        <div>Education Level</div>
+        <div>
+          <select name="education__level">
+            <option value="none" selected>Select a level</option>
+            <option value="high_schol">High School Completed</option>
+            <option value="superior">Superior Completed</option>
+            <option value="post_superior">Post Gratuated </option>
+          </select>
+        </div>
+      </div>
+
+      <div class="items">
+        <div>Class Type</div>
+        <div>
+          <span><input type="radio" name="course__mode" value="presential"checked> Presential</span>
+          <span><input type="radio" name="course__mode" value="hybrid"> Hybrid</span>
+          <span><input type="radio" name="course__mode" value="virtual"> Virtual</span>
+        </div>
+      </div>
+
+      <div class="items">
+        <div>Subjects</div>
+        <div>
+          <input type="text" name="subjects" placeholder="ex: algorithms, data science...">
+        </div>
+      </div>
+
+      <div class="button">
+        <button type="submit">Register</button>
+      </div>
+
+    </section>
+  </form>
+{% endblock content %}

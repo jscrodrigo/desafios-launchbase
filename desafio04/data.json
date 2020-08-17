@@ -1,0 +1,14 @@
+{
+  "teachers": [
+    {
+      "id": 1,
+      "image": "http://images.com/teacher-bernie",
+      "name": "Bernie Caroline Kornigle",
+      "birth__date": 629683200000,
+      "education__level": "high_schol",
+      "course__mode": "hybrid",
+      "subjects": "Data Science, Python, F#",
+      "registerDate": 1596150223437
+    }
+  ]
+}
