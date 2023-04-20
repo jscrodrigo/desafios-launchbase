@@ -11,7 +11,7 @@
   "author": "Rodrigo Cruz",
   "dependencies": {
     "express": "^4.17.1",
-    "nunjucks": "^3.2.1"
+    "nunjucks": "^3.2.4"
   },
   "devDependencies": {
     "browser-sync": "^2.26.10",
